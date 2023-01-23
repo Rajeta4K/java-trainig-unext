@@ -42,7 +42,7 @@ userId INT);
 alter table buyingDetails add constraint buy_fk foreign key(customerid) references Customer(customerid);
 
 INSERT INTO Users(userid, first_name, last_name, address, mobile, email, username, password) VALUES(1, 'Shivam', 'Agrawal', 'Indore', 1222222222, 'shivam.agrawal@bajajfinserv.in', 'Shivam', 'Shivam');
-INSERT INTO Users(userid, first_name, last_name, address, mobile, email, username, password) VALUES(2, 'Sumit', 'Kulhari', 'Chennai', 1111111111, 'sumit.kulhari@bajajfinserv.in', 'Sumit', 'Sumit');
+INSERT INTO Users(userid, first_name, last_name, address, mobile, email, username, password) VALUES(2, 'Gunja', 'Pandey', 'Chennai', 1111111111, 'gunja.pandey@bajajfinserv.in', 'Gunja', 'Gunja');
 INSERT INTO Users(userid, first_name, last_name, address, mobile, email, username, password) VALUES(3, 'Saurav', 'Agrawal', 'Patna', 1010101010, 'saurav.agrawal@bajajfinserv.in', 'Saurav', 'Saurav');
 INSERT INTO Users(userid, first_name, last_name, address, mobile, email, username, password) VALUES(4, 'Devansh', 'Singh', 'Meerut', 0101010101, 'devansh.singh@bajajfinserv.in', 'devansh', 'devash');
 INSERT INTO Users(userid, first_name, last_name, address, mobile, email, username, password) VALUES(5, 'Abhishyom', 'Bhattacharya', 'Tripura', 1000000000, 'abhishyom.bhattacharya@bajajfinserv.in', 'abhishyom', 'abhishyom');
